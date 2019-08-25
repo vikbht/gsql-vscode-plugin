@@ -1,0 +1,25 @@
+{
+    "name": "gsql",
+    "displayName": "GSQL",
+    "description": "Tigergraph SQL Support",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.37.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "gsql",
+            "aliases": ["GSQL", "gsql"],
+            "extensions": [".gsql"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "gsql",
+            "scopeName": "",
+            "path": "./syntaxes/gsql.tmLanguage.json"
+        }]
+    }
+}
